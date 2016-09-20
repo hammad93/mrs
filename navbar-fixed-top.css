@@ -1,0 +1,13 @@
+.navbar-brand {
+    float: left;
+	height: 100% !important;
+    padding: 5px 15px !important;
+    font-size: 18px;
+    line-height: 20px;
+}
+.navbar-nav>li>a {
+    line-height: 50px !important;
+}
+.navbar{
+	max-height: 85px;
+}
