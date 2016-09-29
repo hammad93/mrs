@@ -17,13 +17,5 @@
 	/*SQL QUERIES*/
 	$query = 'DELETE FROM `SUM15` WHERE `KEY` ='.$key.'';
 	$result = $link->query($query);
-	
-	if (!result){
-	    echo '<script> alert("Unknown Error in deleting entry") </script>';
-	}
-	else{
-		echo '<script> alert("Successfully Deleted Entry '.$query.'");
-		window.location.href = "../dashboard";</script>';
-	}
 	$link->close();
 ?>
