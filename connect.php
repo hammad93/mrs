@@ -6,7 +6,7 @@ Notes - This is a helper class to streamline the connection process
 	class createCon  {
 		var $host = '66.7.215.241';
 		var $user = 'imoucfor';
-		var $pass = 'imoucfwebsite13';
+		var $pass = '';
 		var $db = 'imoucfor_mrs';
 		var $conn;
 
